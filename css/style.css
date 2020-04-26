@@ -1,0 +1,486 @@
+table {
+    border-collapse: collapse;
+    text-align: center;
+    border: 10px solid #0FB0B5;
+    margin-bottom: 50px;
+}
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+    image-resolution: 100px;
+    background-image: url("../img/fond.jpg");
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+td {
+    background-color: #696969;
+    color: #fff;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .8rem;
+}
+
+.imgAliens {
+    background: url("../img/Aliens.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgDinosaurs {
+    background: url("../img/Dinosaurs.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgNinjas {
+    background: url("../img/Ninjas.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgPirates {
+    background: url("../img/Pirates.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgRobots {
+    background: url("../img/Robots.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgTricksters {
+    background: url("../img/Tricksters.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgWizards {
+    background: url("../img/Wizards.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgZombies {
+    background: url("../img/Zombies.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgBearCavalry {
+    background: url("../img/BearCavalry.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgGhost {
+    background: url("../img/Ghosts.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgKillerPlants {
+    background: url("../img/KillerPlants.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgSteampunks {
+    background: url("../img/Steampunk.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgElderThings {
+    background: url("../img/ElderThings.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgInnsmouth {
+    background: url("../img/Innsmouth.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgMinionsOfCthulhu {
+    background: url("../img/MinionsofCthulhu.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgMiskatonicUniversity {
+    background: url("../img/MiskatonicUniversity.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgCyborgApes {
+    background: url("../img/CyborgApes.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgShapeshifters {
+    background: url("../img/Shapeshifters.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgSuperSpies {
+    background: url("../img/SuperSpies.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgTimeTravelers {
+    background: url("../img/TimeTravelers.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgGiantAnts {
+    background: url("../img/GiantAnts.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgMadScientists {
+    background: url("../img/MadScientists.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgVampires {
+    background: url("../img/Vampires.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgWerewolves {
+    background: url("../img/Werewolves.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgFairies {
+    background: url("../img/Fairies.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgKittyCats {
+    background: url("../img/KittyCats.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgMythicHorses {
+    background: url("../img/MythicHorses.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgPrincesses {
+    background: url("../img/Princesses.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgClerics {
+    background: url("../img/Clerics.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgDwarves {
+    background: url("../img/Dwarves.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgElves {
+    background: url("../img/Elves.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgHalflings {
+    background: url("../img/Halflings.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgMages {
+    background: url("../img/Mages.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgOrcs {
+    background: url("../img/Orcs.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgThieves {
+    background: url("../img/Thieves.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgWarriors {
+    background: url("../img/Warriors.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgDragons {
+    background: url("../img/Dragons.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgMythicGreeks {
+    background: url("../img/MythicGreeks.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgSharks {
+    background: url("../img/Sharks.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgSuperheroes {
+    background: url("../img/SuperSpies.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgTornados {
+    background: url("../img/Tornados.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgAstroknights {
+    background: url("../img/AstroKnights.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgChangerbots {
+    background: url("../img/Changerbots.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgIgnobles {
+    background: url("../img/Ignobles.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgStarRoamers {
+    background: url("../img/StarRoamers.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgExplorers {
+    background: url("../img/Explorers.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgGrannies {
+    background: url("../img/Grannies.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgRockStars {
+    background: url("../img/RockStars.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgTeddyBears {
+    background: url("../img/TeddyBears.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgIttyCritters {
+    background: url("../img/IttyCritters.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgKaiju {
+    background: url("../img/Kaiju.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgMagicalGirls {
+    background: url("../img/MagicalGirls.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgMegaTroopers {
+    background: url("../img/MegaTroopers.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgSheep {
+    background: url("../img/SheepIcon.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgDiscoDancers {
+    background: url("../img/Disco.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgStarKungFuFighters {
+    background: url("../img/KungFu.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgTruckers {
+    background: url("../img/Trucker.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgVigilantes {
+    background: url("../img/Vigilante.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgGeeks {
+    background: url("../img/Geeks.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgSmashUpAllStars {
+    background: url("../img/SmashUpAllStars.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgAncientEgyptians {
+    background: url("../img/AncientEgyptians.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgCowboys {
+    background: url("../img/Cowboys.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgSamurai {
+    background: url("../img/Samurai.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgVikings {
+    background: url("../img/Vikings.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgLuchadors {
+    background: url("../img/Luchadors.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgMounties {
+    background: url("../img/Mounties.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgMusketeers {
+    background: url("../img/Musketeers.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgSumoWrestlerskers {
+    background: url("../img/SumoWrestlers.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgPenguins {
+    background: url("../img/Penguins.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgAnansiTales {
+    background: url("../img/AnansiTales.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgAncientIncas {
+    background: url("../img/AncientIncas.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgGrimmsFairyTales {
+    background: url("../img/GrimmsFairyTales.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgPolynesianVoyagers {
+    background: url("../img/PolynesianVoyagers.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.imgRussianFairyTales {
+    background: url("../img/RussianFairyTales.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
