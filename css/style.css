@@ -1,0 +1,99 @@
+header {
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/Header.jpg");
+    background-repeat: no-repeat;
+    background-color: #BB0505;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+}
+
+nav {
+    width: 200px;
+    height: auto;
+    float: left;
+}
+
+.divNav {
+    float: left;
+    border: 1px solid #4BA51E;
+    background-color: #4BA51E;
+    border-radius: 10px;
+    width: 200px;
+}
+
+#nav2 {
+    width: 200px;
+    height: auto;
+    float: left;
+}
+
+label {
+    background-color: #4BA51E;
+    margin-left: 5px;
+}
+
+div input {
+    float: right;
+    margin-right: 5px;
+}
+
+#conteneur {
+    width: 1500px;
+    display: inline-block;
+}
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+    image-resolution: 100px;
+    background-image: url("../img/fond.jpg");
+    text-align: center;
+    background-color: #696969;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .8rem;
+    display: inline-block;
+    margin: 50px;
+    margin-bottom: 50px;
+}
+
+body {
+    height: 1080px;
+    width: 1920px;
+}
+
+form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.divNavBtn {
+    float: left;
+    border: 1px solid #BB0505;
+    background-color: #BB0505;
+    border-radius: 10px;
+    width: 200px;
+}

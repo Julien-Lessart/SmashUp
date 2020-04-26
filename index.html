@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Pour le css-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/array.css">
+    <link rel="stylesheet" href="css/factions.css">
+    <title>SmashUp</title>
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <nav>
+        <div class="divNav">
+            <label for="cbAliens"> Aliens</label>
+            <input type="checkbox" name="Aliens" class="cbAliens" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbDinosaurs"> Dinosaures</label>
+            <input type="checkbox" name="Dinosaures" class="cbDinosaurs" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbNinjas"> Ninjas</label>
+            <input type="checkbox" name="Ninjas" class="cbNinjas" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbPirates"> Pirates</label>
+            <input type="checkbox" name="Pirates" class="cbPirates" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbRobots"> Robots</label>
+            <input type="checkbox" name="Robots" class="cbRobots" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbPetitPeuples"> Petit Peuple</label>
+            <input type="checkbox" name="Petit Peuple" class="cbPetitPeuples" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbMagiciens"> Magiciens</label>
+            <input type="checkbox" name="Magiciens" class="cbMagiciens" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbZombies"> Zombies</label>
+            <input type="checkbox" name="Zombies" class="cbZombies" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbCavalerieOurs"> Cavalerie ours</label>
+            <input type="checkbox" name="Cavalerie ours" class="cbCavalerieOurs" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbFantomes"> Fantômes</label>
+            <input type="checkbox" name="Fantômes" id="cbFantomes" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbPlantesCarnivors"> Plantes carnivores</label>
+            <input type="checkbox" name="Plantes carnivores" class="cbPlantesCarnivors" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbSteampunks"> Steampunks</label>
+            <input type="checkbox" name="Steampunks" class="cbSteampunks" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbGrandsAnciens"> Grands Anciens</label>
+            <input type="checkbox" name="Grands Anciens" class="cbGrandsAnciens" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbInnsmouth"> Innsmouth</label>
+            <input type="checkbox" name="Innsmouth" class="cbInnsmouth" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbServiteursDeCthulhu"> Serviteurs de Cthulhu</label>
+            <input type="checkbox" name="Serviteurs de Cthulhu" class="cbServiteursDeCthulhu" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbUniversiteMiskatonic"> Université Miskatonic</label>
+            <input type="checkbox" name="Université Miskatonic" class="cbUniversiteMiskatonic" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbSingesCyborgs"> Singes cyborgs</label>
+            <input type="checkbox" name="Singes cyborgs" class="cbSingesCyborgs" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbMetamorphes"> Métamorphes</label>
+            <input type="checkbox" name="Métamorphes" id="cbMetamorphes" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbSuperEspions"> Super espions</label>
+            <input type="checkbox" name="Super espions" class="cbSuperEspions" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbVoyageursDuTemps"> Voyageurs du temps</label>
+            <input type="checkbox" name="Voyageurs du temps" class="cbVoyageursDuTemps" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbFourmisGeantes"> Fourmis géantes</label>
+            <input type="checkbox" name="Fourmis géantes" class="cbFourmisGeantes" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbScientifiquesFous"> Scientifiques fous</label>
+            <input type="checkbox" name="Scientifiques fous" class="cbScientifiquesFous" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbVampires"> Vampires</label>
+            <input type="checkbox" name="Vampires" class="cbVampires" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbLoupGarous"> Loup-garous</label>
+            <input type="checkbox" name="Loup-garous" class="cbLoupGarous" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbFees">Fées</label>
+            <input type="checkbox" name="Fées" class="cbFees" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbChatonsMignons"> Chatons mignons</label>
+            <input type="checkbox" name="Chatons mignons" id="cbChatonsMignons" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbChevauxMythiques">Chevaux Mythiques</label>
+            <input type="checkbox" name="Chevaux Mythiques" class="cbChevauxMythiques" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbPrincesses"> Princesses</label>
+            <input type="checkbox" name="Princesses" id="cbPrincesses" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbPretres">Prêtres</label>
+            <input type="checkbox" name="Prêtres" class="cbPretres">
+        </div>
+
+        <div class="divNav">
+            <label for="cbNains"> Nains</label>
+            <input type="checkbox" name="Nains" id="cbNains">
+        </div>
+
+        <div class="divNav">
+            <label for="cbElfes"> Elfes</label>
+            <input type="checkbox" name="Elfes" id="cbElfes">
+        </div>
+
+        <div class="divNav">
+            <label for="cbHalfelins"> Halfelins</label>
+            <input type="checkbox" name="Halfelins" class="cbHalfelins">
+        </div>
+
+        <div class="divNav">
+            <label for="cbMages"> Mages</label>
+            <input type="checkbox" name="Mages" class="cbMages">
+        </div>
+
+        <div class="divNav">
+            <label for="cbOrques"> Orques</label>
+            <input type="checkbox" name="Orques" class="cbOrques">
+        </div>
+
+        <div class="divNav">
+            <label for="cbVoleurs">Voleurs</label>
+            <input type="checkbox" name="Voleurs" class="cbVoleurs">
+        </div>
+
+        <div class="divNav">
+            <label for="cbGuerriers"> Guerriers</label>
+            <input type="checkbox" name="Guerriers" id="cbGuerriers">
+        </div>
+
+        <div class="divNav">
+            <label for="cbDragons"> Dragons</label>
+            <input type="checkbox" name="Dragons" id="cbDragons" checked>
+        </div>
+        <div class="divNavBtn">
+            <input type="button" value="Tout Décocher" id="btnDecocher">
+        </div>
+    </nav>
+    <div id="nav2">
+        <div class="divNav">
+            <label for="cbMthologiesGrecques"> Mythologies Grecques</label>
+            <input type="checkbox" name="Mythologies Grecques" class="cbMthologiesGrecques" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbRequins"> Requins</label>
+            <input type="checkbox" name="Requins" class="cbRequins" checked>
+        </div>
+        <div class="divNav">
+            <label for="cbSuperHeros"> Super-Héros</label>
+            <input type="checkbox" name="Super-Héros" class="cbSuperHeros" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbTornades">Tornades</label>
+            <input type="checkbox" name="Tornades" class="cbTornades" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbChevaliersdesEtoiles"> Chevaliers des Etoiles</label>
+            <input type="checkbox" name="Chevaliers des Etoiles" id="cbChevaliersdesEtoiles" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbChangeformers"> Changeformers</label>
+            <input type="checkbox" name="Changeformers" class="cbChangeformers" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbSquatteursDeTrone"> Squatteurs de Trône</label>
+            <input type="checkbox" name="Squatteurs de Trône" class="cbSquatteursDeTrone" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbVoyageursDeLespace"> Voyageurs de l'espace</label>
+            <input type="checkbox" name="Voyageurs de l'espace" class="cbVoyageursDeLespace" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbExplorateurs">Explorateurs</label>
+            <input type="checkbox" name="Explorateurs" class="cbExplorateurs" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbGrandmeres"> Grand mères</label>
+            <input type="checkbox" name="Grand mères" id="cbGrandmeres" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbGrouppies"> Grouppies</label>
+            <input type="checkbox" name="Grouppies" class="cbGrouppies" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbNounours"> Nounours</label>
+            <input type="checkbox" name="Nounours" class="cbNounours" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbIttyCritters"> Itty Critters</label>
+            <input type="checkbox" name="Itty Critters" class="cbIttyCritters" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbKaiju">Kaiju</label>
+            <input type="checkbox" name="Kaiju" class="cbKaiju" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbMagicalGirls"> Magical Girls</label>
+            <input type="checkbox" name="Magical Girls" id="cbMagicalGirls" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbMegaTroopers"> Mega Troopers</label>
+            <input type="checkbox" name="Mega Troopers" id="cbMegaTroopers" checked>
+        </div>
+
+        <div class="divNav">
+            <label for="cbSheep"> Sheep</label>
+            <input type="checkbox" name="Sheep" class="cbSheep">
+        </div>
+
+        <div class="divNav">
+            <label for="cbDiscoDancers"> Disco Dancers</label>
+            <input type="checkbox" name="Disco Dancers" class="cbDiscoDancers">
+        </div>
+
+        <div class="divNav">
+            <label for="cbStarKungFuFighters">Star Kung Fu Fighters</label>
+            <input type="checkbox" name="Star Kung Fu Fighters" class="cbStarKungFuFighters">
+        </div>
+
+        <div class="divNav">
+            <label for="cbTruckers"> Truckers</label>
+            <input type="checkbox" name="Truckers" id="cbTruckers">
+        </div>
+
+        <div class="divNav">
+            <label for="cbVigilantes"> Vigilantes</label>
+            <input type="checkbox" name="Vigilantes" id="cbVigilantes">
+        </div>
+
+        <div class="divNav">
+            <label for="cbMthologiesGrecques"> Mythologies Grecques</label>
+            <input type="checkbox" name="Mythologies Grecques" class="cbMthologiesGrecques">
+        </div>
+
+        <div class="divNav">
+            <label for="cbGeeks"> Geeks</label>
+            <input type="checkbox" name="Geeks" class="cbGeeks">
+        </div>
+        <div class="divNav">
+            <label for="cbSmashUpAllStars"> SmashUpAllStars</label>
+            <input type="checkbox" name="Smash Up All Stars" class="cbSmashUpAllStars">
+        </div>
+
+        <div class="divNav">
+            <label for="cbAncientEgyptians">Ancient Egyptians</label>
+            <input type="checkbox" name="Ancient Egyptians" class="cbAncientEgyptians">
+        </div>
+
+        <div class="divNav">
+            <label for="cbCowboys"> Cowboys</label>
+            <input type="checkbox" name="Cowboys" id="cbCowboys">
+        </div>
+
+        <div class="divNav">
+            <label for="cbSamurai"> Samurai</label>
+            <input type="checkbox" name="Samurai" class="cbSamurai">
+        </div>
+
+        <div class="divNav">
+            <label for="cbVikings"> Vikings</label>
+            <input type="checkbox" name="Vikings" class="cbVikings">
+        </div>
+
+        <div class="divNav">
+            <label for="cbLuchadors"> Luchadors</label>
+            <input type="checkbox" name="Luchadors" class="cbLuchadors">
+        </div>
+
+        <div class="divNav">
+            <label for="cbMounties">Mounties</label>
+            <input type="checkbox" name="Mounties" class="cbMounties">
+        </div>
+
+        <div class="divNav">
+            <label for="cbMusketeers"> Musketeers</label>
+            <input type="checkbox" name="Musketeers" id="cbMusketeers">
+        </div>
+
+        <div class="divNav">
+            <label for="cbSumoWrestlerskers"> Sumo Wrestlerskers</label>
+            <input type="checkbox" name="Sumo Wrestlerskers" class="cbSumoWrestlerskers">
+        </div>
+
+        <div class="divNav">
+            <label for="cbPenguins"> Penguins</label>
+            <input type="checkbox" name="Penguins" class="cbPenguins">
+        </div>
+
+        <div class="divNav">
+            <label for="cbAnansiTales"> Anansi Tales</label>
+            <input type="checkbox" name="Anansi Tales" class="cbAnansiTales">
+        </div>
+
+        <div class="divNav">
+            <label for="cbAncientIncas">Ancient Incas</label>
+            <input type="checkbox" name="Ancient Incas" class="cbAncientIncas">
+        </div>
+
+        <div class="divNav">
+            <label for="cbGrimmsFairyTales"> Grimms’ Fairy Tales</label>
+            <input type="checkbox" name="Grimms’ Fairy Tales" id="cbGrimmsFairyTales">
+        </div>
+
+        <div class="divNav">
+            <label for="cbPolynesianVoyagers"> Polynesian Voyagers</label>
+            <input type="checkbox" name="Polynesian Voyagers" id="cbPolynesianVoyagers">
+        </div>
+
+        <div class="divNav">
+            <label for="cbRussianFairyTales"> Russian Fairy Tales</label>
+            <input type="checkbox" name="Russian Fairy Tales" id="cbRussianFairyTales">
+        </div>
+
+    </div>
+
+    <form action="#">
+        <input type="number" name="Nombre de joueur" id="nbJoueurs" value="2" min="2" max="9">
+        <input type="button" value="Génération de deck" id="btnGen">
+    </form>
+
+    <div id="conteneur"> </div>
+    <!-- Pour les scripts js -->
+    <script src="js/jquery.js"></script>
+    <script src="js/SmashUp.js"></script>
+</body>
+
+</html>
